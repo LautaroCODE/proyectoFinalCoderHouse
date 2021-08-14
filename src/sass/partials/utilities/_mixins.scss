@@ -1,0 +1,25 @@
+@mixin btnC {
+  background-image: linear-gradient(
+    to right,
+    #56ab2f 0%,
+    #a8e063 51%,
+    #56ab2f 100%
+  );
+  width: 160px;
+  padding: 5px 20px;
+  font-size: 15px;
+  text: {
+    align: center;
+    // transform: uppercase;
+    decoration: none;
+  }
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 2px;
+  display: block;
+  &--hover:hover {
+    background-position: right center;
+    color: #fff;
+  }
+}

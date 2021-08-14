@@ -1,0 +1,13 @@
+.iconUp {//1 bloque
+  position: fixed;
+  bottom: 5px * 2; //operacion 3
+  right: 5px;
+  font-size: 1.875rem;
+  color: rgb(53, 190, 35);
+  z-index: 10;
+  opacity: 0.5;
+  &--hover:hover {
+    transform: rotate(180deg) !important;
+    opacity: 1;
+  }
+}

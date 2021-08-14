@@ -1,0 +1,30 @@
+/* UTILITIES */
+@import "./partials/utilities/variables";
+@import "./partials/utilities/functions";
+@import "./partials/utilities/mixins";
+/* BASE */
+@import "./partials/base/reset";
+@import "./partials/base/typo";
+/* COMPONENTS */
+@import "./partials/components/buttons";
+@import "./partials/components/iconUp";
+@import "./partials/components/hr";
+/* LAYOUT */
+@import "./partials/layout/navigation";
+@import "./partials/layout/grid";
+@import "./partials/layout/header";
+@import "./partials/layout/footer";
+@import "./partials/layout/forms";
+@import "./partials/layout/hero";
+/* VIEWS */
+@import "./partials/views/home";
+@import "./partials/views/courses";
+@import "./partials/views/gallery";
+@import "./partials/views/us";
+@import "./partials/views/contact";
+@import "./partials/views/notFound";
+/* THEMES */
+@import "./partials/themes/theme";
+@import "./partials/themes/admin";
+/* VENDORS */
+@import "./partials/vendors/bootstrap";

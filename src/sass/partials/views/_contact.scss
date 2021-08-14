@@ -1,0 +1,11 @@
+@import "../utilities/variables";
+
+.carruselCustom {
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.linktc {
+  color: #212529;
+  &--hover:hover {
+    color: $color-success;
+  }
+}

@@ -1,0 +1,30 @@
+.buttons {
+  background-image: linear-gradient(
+    to right,
+    #44a08d 0%,
+    #093637 51%,
+    #44a08d 100%
+  );
+  width: 160px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  text: {
+    align: center;
+    transform: uppercase;
+  }
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 3px;
+  display: block;
+  &--hover:hover {
+    background-position: right center;
+    color: #fff;
+  }
+  &--contact {
+    width: 200px;
+  }
+}
+
+
+

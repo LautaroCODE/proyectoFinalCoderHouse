@@ -1,0 +1,26 @@
+@import "../utilities/variables";
+
+.redes {//2 bloque
+  background-color: $color-darkSoft;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: (15px / 2) * 2; //operacion 2
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  &--hover:hover {
+    background-color: $color-success;
+  }
+}
+
+.text-secondary--hover:hover {//3 bloque
+  color: white !important;
+}
+
+.me-n5 {
+  margin-right: -0.72rem !important;
+}

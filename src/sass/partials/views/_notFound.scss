@@ -1,0 +1,22 @@
+.nf {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: white;
+}
+
+@media screen and (min-width: 406px) {
+	.nf {
+		background: rgb(242, 242, 246);
+		background: radial-gradient(circle, white 80%, rgba(67, 130, 70, 0.6783088235294117) 100%);
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.nf {
+		background: rgb(242, 242, 246);
+		background: radial-gradient(circle, white 51%, rgba(67, 130, 70, 0.6783088235294117) 100%);
+	}
+}

@@ -1,0 +1,10 @@
+.imgWidth {
+	//8 bloque
+	width: 100%;
+	margin: 20px auto;
+	filter: grayscale(100%) blur(6px);
+	&--hover:hover {
+		filter: grayscale(0%) blur(0);
+		transition: 0.5s;
+	}
+}
