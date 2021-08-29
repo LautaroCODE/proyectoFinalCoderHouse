@@ -37,16 +37,7 @@
 		font-weight: bold;
 	}
 	&__btn {
-		@include btnC // text-decoration: none;
-			// color: white;
-			// background-color: #09d8a4;
-			// font-size: 1rem;
-			// padding: 0.5em;
-			// &--hover:hover {
-			//   background-color: #00bf8f;
-			//   color: white;
-			// }
-;
+		@include btnC;
 	}
 }
 
