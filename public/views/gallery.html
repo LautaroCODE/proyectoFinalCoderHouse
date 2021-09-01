@@ -9,10 +9,7 @@
 		<meta name="author" content="Lautaro Vaz" />
 		<meta name="Primate CODE | Aprendé haciendo" content="Primate CODE | Aprendé haciendo" />
 		<meta name="description" content="Encontraras en nuestra galeria las mejores fotos de animales para ver mientras programas." />
-		<meta
-			name="keywords"
-			content="CURSOS, CARRERAS, PROGRAMACION, ONLINE, WEB, ESTUDIA, PRIMATECODE, CAPACITATE, EXPERTOS, EDUCACION, TUTOR, REACTJS, JAVA, PHYTON, VUEJS, ANGULARJS, NODEJS, JQUERY, C++, PHP, BOOTSTRAP, C#, MONGODB, SASS, GITLAB, GITHUB, HTML, HTML5, CSS, CSS3, JAVASCRIPT, GALERIA"
-		/>
+		<meta name="keywords" content="CURSOS, CARRERAS, PROGRAMACION, ONLINE, WEB, ESTUDIA, PRIMATECODE, CAPACITATE, EXPERTOS, EDUCACION, TUTOR, REACTJS, JAVA, PHYTON, VUEJS, ANGULARJS, NODEJS, JQUERY, C++, PHP, BOOTSTRAP, C#, MONGODB, SASS, GITLAB, GITHUB, HTML, HTML5, CSS, CSS3, JAVASCRIPT, GALERIA" />
 		<meta name="robots" content="index, follow" />
 		<!-- DUBLIN CORE -->
 		<meta name="DC.Title" content="Primate CODE | Galeria" />
@@ -86,18 +83,19 @@
 						<nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
 							<div class="container-fluid px-2">
 								<a class="navbar-brand nav-link text-uppercase fs-3 me-0 fw-bolder fw-bolder" aria-current="page" href="../index.html">primate code</a>
+								<div class="text-center d-md-block d-md-block px-md-3">
+									<i class="fas fa-spinner fs-4 color-success button rotate-center--hover"></i>
+								</div>
+								<div class="text-center d-md-block d-md-block pe-md-3">
+									<i class="fas fa-spinner fs-4 text-white button1 rotate-center--hover"></i>
+								</div>
+								<div class="text-center d-md-block d-md-block pe-md-3">
+									<i class="fas fa-spinner fs-4 color-lightgoldenrodyellow button2 rotate-center--hover"></i>
+								</div>
 								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 									<span class="navbar-toggler-icon"></span>
 								</button>
 								<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-									<div class="btn-group dropstart order-1 text-right align-items-center">
-										<button type="button" class="btn bg-dark dropdown-toggle text-white" data-bs-toggle="dropdown" data-bs-display="static" id="dropdownMenuButton" aria-expanded="false"><i class="fas fa-cog text-white"></i></button>
-										<ul class="dropdown-menu py-0" aria-labelledby="dropdownMenuButton">
-											<li class="nav-item">
-												<button type="button" class="dropdown-item button dark text-white bg-dark border border-light">lgy</button>
-											</li>
-										</ul>
-									</div>
 									<div class="navbar-nav align-items-center">
 										<a class="nav-link text-uppercase py-3 text-white link--hover fw-bolder fw-bolder" href="../views/courses.html">cursos</a>
 										<a class="nav-link text-uppercase py-3 text-white link--hover fw-bolder fw-bolder" href="../views/gallery.html">galeria</a>
@@ -194,10 +192,7 @@
 					<div class="col-xl-4 mb-4">
 						<h2 class="text-white text fw-bolder mb-0">Acerca de nosotros</h2>
 						<hr class="border-0 m-0 d-inline-block text-success" />
-						<p class="text-secondary text-secondary--hover mb-4">
-							Cuatro amigos reunidos en un bar. Así comenzó nuestra historia en 2021. Ellos compartían un sueño común que seguimos desarrollando: convertirnos en la mejor compañía que ofrece transformaciones profundas para las organizaciones, al tiempo que genera oportunidades globales de carrera
-							para los profesionales de TI en todo el mundo.
-						</p>
+						<p class="text-secondary text-secondary--hover mb-4">Cuatro amigos reunidos en un bar. Así comenzó nuestra historia en 2021. Ellos compartían un sueño común que seguimos desarrollando: convertirnos en la mejor compañía que ofrece transformaciones profundas para las organizaciones, al tiempo que genera oportunidades globales de carrera para los profesionales de TI en todo el mundo.</p>
 						<a class="redes redes--hover" href="#"><i class="fab fa-instagram text-white fs-2"></i></a>
 						<a class="redes redes--hover" href="#"><i class="fab fa-facebook-f text-white fs-2"></i></a>
 						<a class="redes redes--hover" href="#"><i class="fab fa-twitter text-white fs-2"></i></a>
@@ -234,6 +229,25 @@
 		</footer>
 		<!-- SWIPER JS -->
 		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<!-- IINITIALIZE SWIPER -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				effect: "coverflow",
+				grabCursor: true,
+				centeredSlides: true,
+				slidesPerView: "auto",
+				coverflowEffect: {
+					rotate: 50,
+					stretch: 0,
+					depth: 100,
+					modifier: 1,
+					slideShadows: true,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+				},
+			});
+		</script>
 		<!-- BOOTSTRAP JAVASCRIPT BUNDLE WITH POPPER -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<!-- CUSTOM JS -->

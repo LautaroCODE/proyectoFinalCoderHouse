@@ -1,23 +1,14 @@
 const $button = document.querySelector(".button");
+const $button1 = document.querySelector(".button1");
+const $button2 = document.querySelector(".button2");
 const $body = document.querySelector("body");
 
 $button.addEventListener("click", function (infoEvento) {
+	$body.classList.toggle("success");
+});
+$button1.addEventListener("click", function (infoEvento) {
 	$body.classList.toggle("dark");
 });
-
-var swiper = new Swiper(".mySwiper", {
-	effect: "coverflow",
-	grabCursor: true,
-	centeredSlides: true,
-	slidesPerView: "auto",
-	coverflowEffect: {
-		rotate: 50,
-		stretch: 0,
-		depth: 100,
-		modifier: 1,
-		slideShadows: true,
-	},
-	pagination: {
-		el: ".swiper-pagination",
-	},
+$button2.addEventListener("click", function (infoEvento) {
+	$body.classList.toggle("lightgoldenrodyellow");
 });
