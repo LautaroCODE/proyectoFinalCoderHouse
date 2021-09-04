@@ -1,15 +1,11 @@
-.hero {//4 bloque
-  background-image: linear-gradient(
-      120deg,
-      rgba(11, 112, 25, 0.699) 0%,
-      rgba(64, 35, 190, 0.692) 100%
-    ),
-    url(../assets/img/HERO/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: (400px - 200px) * 2; //operacion 1
-  &__text {
-    color: white;
-  }
+.hero {
+	//4 bloque
+	background-image: linear-gradient(120deg, rgba(11, 112, 25, 0.699) 0%, rgba(64, 35, 190, 0.692) 100%), url(https://i.ibb.co/KyPC20D/hero.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: (400px - 200px) * 2; //operacion 1
+	&__text {
+		color: white;
+	}
 }
