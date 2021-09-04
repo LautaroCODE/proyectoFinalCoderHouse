@@ -42,9 +42,8 @@
 }
 
 .heartbeat--hover:hover {
-	//7 bloque
-	-webkit-animation: heartbeat 1.5s ease-in-out both;
-	animation: heartbeat 1.5s ease-in-out both;
+	-webkit-animation: heartbeat 1.5s ease-in-out 2s both;
+	animation: heartbeat 1.5s ease-in-out 2s both;
 }
 
 @-webkit-keyframes heartbeat {
