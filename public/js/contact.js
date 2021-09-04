@@ -14,4 +14,6 @@ $button1.addEventListener("click", function (infoEvento) {
 });
 $button2.addEventListener("click", function (infoEvento) {
 	$body.classList.toggle("lightgoldenrodyellow");
+	$aa.classList.toggle("oscurito");
+	$bb.classList.toggle("oscurito");
 });
