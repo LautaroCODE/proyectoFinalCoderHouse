@@ -28,36 +28,35 @@
 .galeria {
 	columns: 5 320px;
 	column-gap: 0.5em;
-}
-.imgGaleria {
-	width: 100%;
-	display: block;
-	border: 2px solid white;
-	transform: scale(1.5) rotate(11deg);
-}
-.imgGaleria:hover {
-	-webkit-filter: brightness(90%) contrast(150%);
-	filter: brightness(90%) contrast(150%);
-}
-.chupete {
-	position: relative;
-	margin-bottom: 0.5em;
-	overflow: hidden;
-}
-.itemGaleria {
-	position: absolute;
-	bottom: -50px;
-	transition: 1s;
-	width: 100%;
-	text-align: center;
-	& h3 {
-		color: white;
-		font-weight: bolder;
-		text-shadow: 0 0 25px black, 2px 2px 25px rgb(27, 15, 44), 2px 2px 12px rgb(5, 20, 5);
+	&__contenedor {
+		position: relative;
+		margin-bottom: 0.5em;
+		overflow: hidden;
+		&--hover:hover .galeria__item {
+			bottom: 30px;
+			transition: 2s;
+		}
 	}
-}
-
-.chupete:hover .itemGaleria {
-	bottom: 30px;
-	transition: 2s;
+	&__img {
+		width: 100%;
+		display: block;
+		border: 2px solid white;
+		transform: scale(1.5) rotate(11deg);
+		&--hover:hover {
+			-webkit-filter: brightness(90%) contrast(150%);
+			filter: brightness(90%) contrast(150%);
+		}
+	}
+	&__item {
+		position: absolute;
+		bottom: -50px;
+		transition: 1s;
+		width: 100%;
+		text-align: center;
+		& h3 {
+			color: white;
+			font-weight: bolder;
+			text-shadow: 0 0 25px black, 2px 2px 25px rgb(27, 15, 44), 2px 2px 12px rgb(5, 20, 5);
+		}
+	}
 }
