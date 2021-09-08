@@ -7,15 +7,15 @@
 		overflow: hidden;
 		&--hover:hover .galeria__item {
 			bottom: 30px;
-			transition: 2s;
 		}
 	}
 	&__img {
 		width: 100%;
 		display: block;
-		border: 2px solid white;
-		transform: scale(1.5) rotate(11deg);
+		transition: 1s;
 		&--hover:hover {
+			transform: scale(1.2) rotate(1deg);
+			transition: 2s;
 			-webkit-filter: brightness(90%) contrast(150%);
 			filter: brightness(90%) contrast(150%);
 		}
